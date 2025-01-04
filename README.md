@@ -12,8 +12,8 @@ This project analyses time of border crossing reported in [telegram chat](https:
 ## Few shot was done with langsmith assistance
 ![img.png](static/langsmith.png)
 
-### Population size of messages = 352<br>
-### Population size of detected and parsed reports = 220
+### Number of total messages = 352<br>
+### Number of detected and parsed reports = 220
 
 ![duration_box_plots.png](static/duration_box_plots.png)
 ![histogram_duration.png](static/histogram_duration.png)
