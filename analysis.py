@@ -30,7 +30,7 @@ df['Date'] = df['Time1'].dt.date
 df['DayOfWeek'] = df['Time1'].dt.day_name()
 
 # Histogram of durations
-fig = px.histogram(df, x='Duration_seconds', color='Direction', nbins=10, title='Histogram of Crossing Durations')
+fig = px.histogram(df, x='Duration_seconds', color='Direction', nbins=50, title='Histogram of Crossing Durations')
 fig.update_layout(xaxis_title='Duration (seconds)', yaxis_title='Count')
 fig.show()
 
